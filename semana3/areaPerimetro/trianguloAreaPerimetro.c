@@ -16,6 +16,6 @@ int main() {
     // se  establecen las ecuaciones para el semiperimetro y el area del triangulo
     p = (a+b+c)/2;
     area = sqrt(p*(p-a)*(p-b)*(p-c));
-    p = 2*p;
+    p = 2*p; // Se consigue el perimetro duplicando el semiperimetro
     printf("Para el triangulo dado tenemos:\nArea = %.2f\nPerimetro = %.2f\n", area,p);
 }
