@@ -6,7 +6,7 @@ int main() {
     float area, p; //Se definen el area y el semiperimetro del triangulo respectivamente
 
     // se establecen los valores de los lados del triangulo
-    printf("Introduce los valores de los tres lados: a, b y c del triangulo:\n Lado a -> ");
+    printf("Introduce los valores de los tres lados: a, b y c del triangulo:\nLado a -> ");
     scanf("%f",&a);
     printf("Lado b -> ");
     scanf("%f",&b);
