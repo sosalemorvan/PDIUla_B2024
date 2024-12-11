@@ -1,18 +1,30 @@
+/* Entrada: 
+r ∈ R+ r: radio
+Salida: 
+area, perimetro ∈ R 
+
+Algoritmo:
+Obtener(r)
+area ← (π*r*r)
+perimetro ← 2*π*r 
+Devolver(area,perimetro)
+*/
+
+
 #include<stdio.h>
 #include<math.h>
+#define PI 3.14159265358979323846
 
 
 int main() {
-	float r,area,perimetro,pi;
-    pi = 4*atan(1);
+	float r,area,perimetro;
 
-    printf("Escribe el radio del circulo: \n");
     scanf("%f",&r);
     
-    area = pi*r*r;
-    perimetro = 2*pi*r;
+    area = PI*r*r;
+    perimetro = 2*PI*r;
 
-    printf("Para el circulo de radio %.2f tenemos:\nArea = %.2f\nPerimetro = %.2f\n", r, area,perimetro);
+    printf("%.2f\n%.2f\n",area,perimetro);
 }
 
 

@@ -1,3 +1,15 @@
+/* Entrada: 
+a ∈ R+ a: Lados del cuadrado
+
+Algoritmo:
+Obtener(a)
+area ← a*a
+Perimetro ← 4*a
+Devolver(area, perimetro)
+
+Salida: 
+area, volumen ∈ R */ 
+
 #include<stdio.h>
 #include<math.h>
 
