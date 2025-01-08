@@ -7,9 +7,12 @@ area, perimetro ∈ R
 Algoritmo:
 Obtener(a,b,c)
 p ← (a+b+c)/2
-area ← sqrt(p*(p-a)*(p-b)*(p-c))
+area ← raiz(p*(p-a)*(p-b)*(p-c))
 perimetro ← 2*p
 Devolver(area, perimetro)
+
+Variables:
+p ∈ R
 */ 
 
 #include<stdio.h>

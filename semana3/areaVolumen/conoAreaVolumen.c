@@ -2,12 +2,12 @@
 r, h ∈ R+ r: radio, h:altura
 
 Obtener(r,h)
-area ← (π*r)*(r+sqrt(h^2+r^2))
-volumen ← (1/3)*π*r^2*h
+area ← (PI*r)*(r+raiz(h*h+r*r))
+volumen ← (1/3)*PI*r*r*h
 Devolver(area,volumen)
 
 Salida: 
-area, volumen ∈ R+ */ 
+area, volumen ∈ R */ 
 
 #include<stdio.h>
 #include<math.h>

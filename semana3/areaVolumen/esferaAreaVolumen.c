@@ -2,12 +2,12 @@
 r ∈ R+ r: radio
 
 Obtener(r)
-area ← 4*π*r^2
-volumen ← (4/3)*π*r^3
+area ← 4*pi*r*r
+volumen ← (4/3)*pi*r*r*r
 Devolver(area,volumen)
 
 Salida: 
-area, volumen ∈ R+ */ 
+area, volumen ∈ R */ 
 
 #include<stdio.h>
 #include<math.h>
