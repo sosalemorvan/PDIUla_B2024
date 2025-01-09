@@ -20,7 +20,7 @@ int main() {
         printf("Error matemático");
     } else
     {
-       r = sqrt((1/x)+(n*y))*cos(2*pi*(1/2*(m+1)))/(((sin(2*pi*(1/2*(m+1))))+(x*x)/(1+1))*exp(abs(x-y)*(x*x)));
+       r = sqrt((1/x)+(n*y))*cos(2*pi*(1/(2*m+1)))/(((sin(2*pi*(1/(2*m+1))))+(x*x)/(1+1))*exp(abs(x-y)*(x*x)));
        printf("%.2f\n", r);
     } 
 }
