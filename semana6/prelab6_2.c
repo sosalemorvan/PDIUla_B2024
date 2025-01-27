@@ -16,7 +16,7 @@ int main() {
 
 	c = 1;
 	f_c = (log(c)/log(10)) + c;
-    while (sqrt((a-b)*(a-b)) > (exp(1)) && c != 0)
+    while (fabs(a-b) > (exp(1)) && c != 0)
     {
         c = (a+b)/2;
         f_c = (log(c)/log(10)) + c;
