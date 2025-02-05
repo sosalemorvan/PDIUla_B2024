@@ -39,10 +39,11 @@ int main()
             pi_ant = pi;
             pi = pi_ant * (aux / den);
             dif = fabs(round(100*4*pi) - round(100*4*pi_ant));
-            printf("%i : %i : %.2f : %.2f : %i\n", pos, aux, 4*pi, 4*pi_ant, dif);
             pos = pos + 1;
         }
         i = i + 1;
     } while (dif > eps && pos < 100);
+    pi = 4*pi;
+    printf("%f\n",pi);
     return 0;
 }
