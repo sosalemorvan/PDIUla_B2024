@@ -57,7 +57,3 @@ Para i← 0 .. k-1
 
 ## Variables
 $$suma,temp,aux \in \mathbb{R} \\ i,j,k \in \mathbb{Z}$$
-
-$$
- \begin{align*}    &suma = \sum_{i=0}^{n-1}x_i\\    &p = \frac{suma}{n}\\    &temp =  x_i - p\\   &aux = \sum_{i = 0}^{n-1} temp^2\\    &std = \sqrt{\frac{aux}{n-1}}\\    &\left.\begin{matrix}   \begin{cases}    omin_j = x_i & \text{ if } \left | x_i-p \right | < abs \\    omax_k = x_i & \text{ if otro caso}     \end{cases} \\    \end{matrix}\right\} 0 < i < (n-1)    \end{align*}
-$$
