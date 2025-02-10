@@ -38,7 +38,7 @@ int main()
             }
             pi_ant = pi;
             pi = pi_ant * (aux / den);
-            dif = fabs(round(100*4*pi) - round(100*4*pi_ant));
+            dif = fabs(round(10*4*pi) - round(10*4*pi_ant));
             pos = pos + 1;
         }
         i = i + 1;
